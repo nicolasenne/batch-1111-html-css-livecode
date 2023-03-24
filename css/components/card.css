@@ -1,0 +1,28 @@
+.cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.card-white {
+  background-color: #fff;
+  width: 250px;
+  padding: 8px;
+}
+
+.card-white img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.card-profile {
+  margin-top: 8px;
+  display: flex;
+  align-items: center;
+}
+
+.card-profile a {
+  color: #4B94BD;
+  margin-left: 8px;
+}
